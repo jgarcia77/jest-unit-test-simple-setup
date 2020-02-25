@@ -1,0 +1,27 @@
+{
+  "name": "jest-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-jest": "^25.1.0",
+    "jest": "^25.1.0",
+    "jest-watch-typeahead": "^0.4.2",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "jest": {
+    "watchPlugins": [
+      "jest-watch-typeahead/filename",
+      "jest-watch-typeahead/testname"
+    ]
+  }
+}
